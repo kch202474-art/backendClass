@@ -2,7 +2,7 @@ import http from 'http'
 
 import {createReadStream} from "fs"
 
-const server=http.createServer(async(req,res)={
+const server=http.createServer(async(req,res)=>{
         if(req.url ==="/stream"){
     
         
